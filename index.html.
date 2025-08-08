@@ -1,0 +1,76 @@
+
+
+johnmichael hull <hollywoodscenic@gmail.com>
+6:40 PM (0 minutes ago)
+to me
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Wallpaper Guy – Los Angeles</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; color:#222; }
+    header { padding:48px 20px; text-align:center; background:#f5f5f7; }
+    .container { max-width:1100px; margin:0 auto; padding:24px; }
+    h1 { margin:0 0 8px; font-size:40px; letter-spacing:0.5px; }
+    h2 { margin:40px 0 12px; font-size:26px; }
+    p { line-height:1.6; }
+    .cta { display:inline-block; margin-top:16px; padding:12px 18px; border-radius:8px; border:1px solid #111; text-decoration:none; font-weight:600; }
+    .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); }
+    .card { border:1px solid #e5e5e5; border-radius:14px; overflow:hidden; background:#fff; }
+    .card img { width:100%; height:180px; object-fit:cover; display:block; }
+    .card .pad { padding:14px; }
+    footer { text-align:center; padding:32px 20px; color:#666; }
+    .badge { display:inline-block; font-size:12px; background:#111; color:#fff; padding:4px 8px; border-radius:999px; margin-left:8px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>The Wallpaper Guy <span class="badge">Los Angeles</span></h1>
+    <p>Scenic artist & master installer — 36 years painting film/TV sets and transforming real homes with premium wallcoverings.</p>
+    <a class="cta" href="mailto:thewallpaperguyla@gmail.com?subject=Wallpaper%20Estimate">Get a fast estimate →</a>
+  </div>
+</header>
+
+<main class="container">
+  <section>
+    <h2>Services</h2>
+    <div class="grid">
+      <div class="card"><div class="pad"><strong>Wallpaper Installation</strong><p>Residential & commercial. Grasscloth, murals, vinyl, silks, and tricky patterns.</p></div></div>
+      <div class="card"><div class="pad"><strong>Removal & Prep</strong><p>Careful removal, skim coat, primer, and surface repair for a flawless finish.</p></div></div>
+      <div class="card"><div class="pad"><strong>Scenic Finishes</strong><p>Woodgraining, marbleizing, distressing, aging—film-quality finishes for your space.</p></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Recent Work</h2>
+    <div class="grid">
+      <div class="card"><img src="https://picsum.photos/seed/wall1/800/600" alt="Feature wall"><div class="pad"><strong>Feature wall</strong><p>Perfect seams, centered motif.</p></div></div>
+      <div class="card"><img src="https://picsum.photos/seed/wall2/800/600" alt="Grasscloth"><div class="pad"><strong>Grasscloth</strong><p>Natural texture, invisible corner wraps.</p></div></div>
+      <div class="card"><img src="https://picsum.photos/seed/wall3/800/600" alt="Mural"><div class="pad"><strong>Mural install</strong><p>Panel alignment to the millimeter.</p></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Fast Quote</h2>
+    <p>Send 3 things and I’ll reply same day:</p>
+    <ol>
+      <li>Photos of your walls</li>
+      <li>Measurements (width × height)</li>
+      <li>Wallpaper brand & roll size (if known)</li>
+    </ol>
+    <p>Email: <a href="mailto:thewallpaperguyla@gmail.com">thewallpaperguyla@gmail.com</a> • Phone: <a href="tel:+13235551234">(323) 555-1234</a></p>
+  </section>
+</main>
+
+<footer>
+  © <span id="y"></span> The Wallpaper Guy — Licensed & insured • Los Angeles
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
